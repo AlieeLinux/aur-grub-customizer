@@ -1,5 +1,5 @@
 pkgbase = grub-customizer5-git
-	pkgdesc = A tool to choose grub2 bootscreen theme
+	pkgdesc = A graphical grub2 settings manager (git version)
 	pkgver = 5.2.8.r800.805e8d3
 	pkgrel = 1
 	url = https://launchpad.net/grub-customizer
