@@ -1,9 +1,8 @@
-# Maintainer: ahmedmoselhi <ahmedmoselhi55@gmail.com> 
-
+# Maintainer: Aliee <bazartroy531@gmail.com> 
 pkgname='grub-customizer5-git'
 _pkgname='grub-customizer'
-pkgver=5.2.4.r792.54672de
-_pkgver=5.2.4
+pkgver=5.2.8.r800.805e8d3
+_pkgver=5.2.8
 pkgrel=1
 pkgdesc='A tool to choose grub2 bootscreen theme'
 arch=('x86_64')
