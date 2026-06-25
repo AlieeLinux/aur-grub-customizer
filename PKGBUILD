@@ -1,4 +1,6 @@
 # Maintainer: Aliee <bazartroy531@gmail.com> 
+# Contributor: ahmedmoselhi <ahmedmoselhi55@gmail.com> 
+
 pkgname='grub-customizer5-git'
 _pkgname='grub-customizer'
 pkgver=5.2.8.r800.805e8d3
@@ -9,8 +11,7 @@ arch=('x86_64')
 url="https://launchpad.net/grub-customizer"
 license=('GPL3')
 depends=(gcc-libs glibc grub gtkmm3 openssl)
-makedepends=(atkmm cairomm cmake glib2 glibmm gtk3 libarchive libsigc++
-pangomm)
+makedepends=(atkmm cairomm cmake glib2 glibmm gtk3 libarchive libsigc++ pangomm)
 optdepends=(
   'hwinfo: for additional hardware information'
   'polkit: for authorization'
@@ -18,10 +19,14 @@ optdepends=(
 )
 provides=($_pkgname)
 conflicts=($_pkgname)
-source=(git+https://git.launchpad.net/$_pkgname
-              "grub.cfg")
-sha256sums=("SKIP"
-                       "47c6de7e8f77d843dd79547b6ea34d5f485271cdf86fa3770f67c59359d2e78b")
+source=(
+    git+https://git.launchpad.net/$_pkgname
+    "grub.cfg"
+)
+sha256sums=(
+   "SKIP"
+   "47c6de7e8f77d843dd79547b6ea34d5f485271cdf86fa3770f67c59359d2e78b"
+)
 
 pkgver() {
   cd ${_pkgname}
